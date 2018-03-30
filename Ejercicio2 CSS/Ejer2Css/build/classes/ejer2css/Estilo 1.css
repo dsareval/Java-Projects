@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/11/2014, 10:47:29 AM
+    Author     : lab6
+*/
+
+.fondo{
+    -fx-background-color: black;   
+}
+.fondoImagen{
+    -fx-background-image: url(http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Monumentvalley.jpg/1280px-Monumentvalley.jpg);
+    -fx-background-repeat: no-repeat;
+}
+.button{
+    -fx-background-color:white ;
+    -fx-border-width: 5;
+    //-fx-border-color: none;
+    -fx-text-fill: blue;
+    -fx-font-size: l1pt;
+    -fx-font-family: TimeNewRoman ;
+    -fx-font-style: italik;
+    -fx-font-weight: bold;
+}
+
+

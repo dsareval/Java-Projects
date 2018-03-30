@@ -1,0 +1,8 @@
+LOS DOS ARCHIVOS DEBEN ESTAR DENTRO DE LA CARPETA DE SU PROYECTO EN SRC
+
+
+EL ARCHIVO LLAMADO jnpout32.jar DEBE PEGAR DENTRO DE  C:\Archivos de programa\Java\jdk1.7.0\lib
+
+EL ARCHIVO LLAMADO UserPort.sys y el archivo jnpout32.dll PEGAR EN C:\WINDOWS\system32\drivers
+
+EL ARCHIVO LLAMADO jnpout32pkg.dll PEGAR EN C:\WINDOWS\system32

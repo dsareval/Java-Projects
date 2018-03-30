@@ -1,0 +1,19 @@
+.fondo{
+    -fx-background-color: plum;
+}
+
+.fondoImagen{
+    -fx-background-image: url(http://i.kinja-img.com/gawker-media/image/upload/s--ddNFFmTL--/bwhmmqxqrjhshmzsc3xx.jpg);
+    -fx-background-repeat: no-repeat;
+}
+
+.boton{
+    -fx-background-color: firebrick;
+    -fx-text-fill: steelblue;
+    -fx-border-width: 2;
+    -fx-border-color: gold;
+    -fx-font-size: 12pt;
+    -fx-font-family: Comic Sans;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;   
+}

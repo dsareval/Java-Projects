@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="303.0" prefWidth="515.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="aritmética.ConvertidorController">
+    <stylesheets>
+        <URL value="@convertidor.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="112.0" layoutY="59.0" text="Número Decimal:" />
+      <TextField fx:id="txtNumDec" layoutX="214.0" layoutY="55.0" />
+      <Button fx:id="btnLimpiar" layoutX="158.0" layoutY="127.0" mnemonicParsing="false" onAction="#Limpiar" text="Limpiar" />
+      <Button fx:id="btnConvertir" layoutX="263.0" layoutY="127.0" mnemonicParsing="false" onAction="#Convertir" text="Convertir" />
+      <Button fx:id="btnSalir" layoutX="363.0" layoutY="127.0" mnemonicParsing="false" onAction="#Salir" text="Salir" />
+      <Label layoutX="106.0" layoutY="192.0" text="Número Binario:" />
+      <TextField fx:id="txtNumBin" layoutX="214.0" layoutY="188.0" />
+   </children>
+</AnchorPane>

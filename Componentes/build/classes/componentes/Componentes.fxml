@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" onDragDetected="#opcionSeleccionada" prefHeight="250.0" prefWidth="348.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="componentes.ComponentesController">
+    <children>
+      <Label fx:id="opcion" layoutX="160.0" layoutY="241.0" text="Label" />
+      <ListView fx:id="listado" layoutX="74.0" layoutY="20.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="282.0" layoutY="95.0" mnemonicParsing="false" onAction="#opcionSeleccionada" text="Mostrar" />
+    </children>
+</AnchorPane>

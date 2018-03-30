@@ -1,0 +1,15 @@
+.boton
+{
+    -fx-background-color: blue;
+    -fx-text-fill: green;
+    -fx-border-width: 2;
+    -fx-border-color: purple;
+}
+
+.fondo
+{
+    -fx-background-image: url(http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Monumentvalley.jpg/1280px-Monumentvalley.jpg);
+    -fx-background-repeat: no-repeat;
+}
+    
+
